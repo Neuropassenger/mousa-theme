@@ -10,37 +10,45 @@
         "color": {
             "palette": [
                 {
-                    "slug": "base",
-                    "name": "Base"
-                },
-                {
-                    "slug": "contrast",
-                    "name": "Contrast"
-                },
-                {
-                    "slug": "primary",
-                    "name": "Primary"
-                },
-                {
-                    "slug": "secondary",
-                    "name": "Secondary"
-                },
-                {
-                    "slug": "tertiary",
-                    "name": "Tertiary"
-                },
-                {
-                    "slug": "quaternary",
-                    "name": "Quaternary"
-                },
-                {
-                    "slug": "quinary",
-                    "name": "Quinary"
-                },
-                {
-                    "slug": "senary",
-                    "name": "Senary"
-                }
+					"color": "#eeede0",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#c9a050",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#1e1d18",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#f7f6ec",
+					"name": "Secondary",
+					"slug": "secondary"
+				},
+				{
+					"color": "#6d6d65",
+					"name": "Tertiary",
+					"slug": "tertiary"
+				},
+				{
+                    "color": "#92938f",
+					"name": "Quaternary",
+					"slug": "quaternary"
+				},
+				{
+					"color": "#92938f",
+					"name": "Quinary",
+					"slug": "quinary"
+				},
+				{
+					"color": "#ebe9cf",
+					"name": "Senary",
+					"slug": "senary"
+				}
             ]
         },
         "typography": {
