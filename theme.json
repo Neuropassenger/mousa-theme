@@ -1,4 +1,47 @@
 { 
 	"version": 2,
-	"$schema": "https://schemas.wp.org/wp/6.0/theme.json"
+	"$schema": "https://schemas.wp.org/wp/6.0/theme.json",
+    "settings": {
+        "appearanceTools": true,
+        "layout": {
+            "contentSize": "1140px",
+            "wideSize": "1440px"
+        },
+        "color": {
+            "palette": [
+                {
+                    "slug": "base",
+                    "name": "Base"
+                },
+                {
+                    "slug": "contrast",
+                    "name": "Contrast"
+                },
+                {
+                    "slug": "primary",
+                    "name": "Primary"
+                },
+                {
+                    "slug": "secondary",
+                    "name": "Secondary"
+                },
+                {
+                    "slug": "tertiary",
+                    "name": "Tertiary"
+                },
+                {
+                    "slug": "quaternary",
+                    "name": "Quaternary"
+                },
+                {
+                    "slug": "quinary",
+                    "name": "Quinary"
+                },
+                {
+                    "slug": "senary",
+                    "name": "Senary"
+                }
+            ]
+        }
+    }
 }
