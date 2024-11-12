@@ -1,0 +1,7 @@
+.wp-block-quote p::before {
+    content: "“";
+}
+
+.wp-block-quote p::after {
+    content: "”";
+}

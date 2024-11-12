@@ -6,4 +6,10 @@ function mousa_enqueue_block_styles() {
 		'src'    => get_theme_file_uri( "assets/css/blocks/core-paragraph.css" ),
 		'path'   => get_theme_file_path( "assets/css/blocks/core-paragraph.css" )
 	) );
+
+    wp_enqueue_block_style( 'core/quote', array(
+		'handle' => 'mousa-block-quote',
+		'src'    => get_theme_file_uri( "assets/css/blocks/core-quote.css" ),
+		'path'   => get_theme_file_path( "assets/css/blocks/core-quote.css" )
+	) );
 }
