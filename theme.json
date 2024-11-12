@@ -8,6 +8,7 @@
 			"wideSize": "1440px"
 		},
 		"color": {
+			"custom": false,
 			"defaultPalette": false,
 			"palette": [
 				{
