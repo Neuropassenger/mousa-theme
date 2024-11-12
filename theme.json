@@ -18,7 +18,7 @@
 			"defaultPalette": false,
 			"palette": [
 				{
-					"color": "#eeede0",
+					"color": "#f7f6ec",
 					"name": "Base",
 					"slug": "base"
 				},
@@ -33,7 +33,7 @@
 					"slug": "primary"
 				},
 				{
-					"color": "#f7f6ec",
+					"color": "#eeede0",
 					"name": "Secondary",
 					"slug": "secondary"
 				},
@@ -212,7 +212,8 @@
 			},
 			"core/button": {
 				"color": {
-					"background": "var(--wp--preset--color--primary)"
+					"background": "var(--wp--preset--color--primary)",
+					"text": "var(--wp--preset--color--base)"
 				}
 			}
 		},
