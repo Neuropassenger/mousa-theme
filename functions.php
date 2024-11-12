@@ -18,6 +18,12 @@ function mousa_enqueue_block_styles() {
 		'src'    => get_theme_file_uri( "assets/css/blocks/core-list.css" ),
 		'path'   => get_theme_file_path( "assets/css/blocks/core-list.css" )
 	) );
+
+    wp_enqueue_block_style( 'core/button', array(
+		'handle' => 'mousa-block-button',
+		'src'    => get_theme_file_uri( "assets/css/blocks/core-button.css" ),
+		'path'   => get_theme_file_path( "assets/css/blocks/core-button.css" )
+	) );
 }
 
 add_action( 'admin_init', 'mousa_add_editor_styles' );

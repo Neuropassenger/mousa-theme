@@ -209,6 +209,11 @@
 				"color": {
 					"background": "var(--wp--preset--color--senary)"
 				}
+			},
+			"core/button": {
+				"color": {
+					"background": "var(--wp--preset--color--primary)"
+				}
 			}
 		},
 		"elements": {
