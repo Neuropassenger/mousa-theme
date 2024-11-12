@@ -1,4 +1,4 @@
 /* core/list */
-ul.wp-block-list li div.rich-text {
+ul.wp-block-list li > div {
     display: inline-block;
 }

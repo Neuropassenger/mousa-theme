@@ -22,5 +22,5 @@ function mousa_enqueue_block_styles() {
 
 add_action( 'admin_init', 'mousa_add_editor_styles' );
 function mousa_add_editor_styles() {
-    add_editor_style( get_theme_file_uri( "assets/css/editor.css" ) );
+    add_editor_style( get_theme_file_uri( "assets/css/editor.css?v=" . wp_get_theme()->get( 'Version' ) ) );
 }
