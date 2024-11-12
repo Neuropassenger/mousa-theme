@@ -8,6 +8,7 @@
 			"wideSize": "1440px"
 		},
 		"color": {
+			"defaultPalette": false,
 			"palette": [
 				{
 					"color": "#eeede0",
