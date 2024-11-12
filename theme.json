@@ -181,9 +181,6 @@
 				}
 			},
 			"core/quote": {
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--medium)"
-				},
 				"border": {
 					"left": {
 						"color": "var(--wp--preset--color--contrast)",
