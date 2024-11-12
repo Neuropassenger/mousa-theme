@@ -149,6 +149,32 @@
 			"background": "var(--wp--preset--color--base)",
 			"text": "var(--wp--preset--color--primary)"
 		},
+		"blocks": {
+			"core/image": {
+				"elements": {
+					"caption": {
+						"color": {
+							"text": "var(--wp--preset--color--tertiary)"
+						},
+						"typography": {
+							"fontSize": "var(--wp--preset--font-size--small)"
+						}
+					}
+				}
+			},
+			"core/gallery": {
+				"elements": {
+					"caption": {
+						"color": {
+							"text": "var(--wp--preset--color--tertiary)"
+						},
+						"typography": {
+							"fontSize": "var(--wp--preset--font-size--small)"
+						}
+					}
+				}
+			}
+		},
 		"elements": {
 			"heading": {
 				"color": {
