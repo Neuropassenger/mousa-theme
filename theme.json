@@ -1,15 +1,15 @@
-{ 
+{
 	"version": 3,
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
-    "settings": {
-        "appearanceTools": true,
-        "layout": {
-            "contentSize": "1140px",
-            "wideSize": "1440px"
-        },
-        "color": {
-            "palette": [
-                {
+	"settings": {
+		"appearanceTools": true,
+		"layout": {
+			"contentSize": "1140px",
+			"wideSize": "1440px"
+		},
+		"color": {
+			"palette": [
+				{
 					"color": "#eeede0",
 					"name": "Base",
 					"slug": "base"
@@ -35,7 +35,7 @@
 					"slug": "tertiary"
 				},
 				{
-                    "color": "#92938f",
+					"color": "#92938f",
 					"name": "Quaternary",
 					"slug": "quaternary"
 				},
@@ -49,14 +49,14 @@
 					"name": "Senary",
 					"slug": "senary"
 				}
-            ]
-        },
-        "typography": {
-            "fluid": true,
-            "letterSpacing": true,
-            "lineHeight": true,
-            "textColumns": true,
-            "fontFamilies": [
+			]
+		},
+		"typography": {
+			"fluid": false,
+			"letterSpacing": true,
+			"lineHeight": true,
+			"textColumns": true,
+			"fontFamilies": [
 				{
 					"fontFace": [
 						{
@@ -82,115 +82,67 @@
 				{
 					"name": "Extra Tiny",
 					"slug": "xx-small",
-					"size": "14px",
-					"fluid": {
-						"min": "12px",
-						"max": "14px"
-					}
+					"size": "14px"
 				},
 				{
 					"name": "Tiny",
 					"slug": "x-small",
-					"size": "16px",
-					"fluid": {
-						"min": "14px",
-						"max": "16px"
-					}
+					"size": "16px"
 				},
 				{
 					"name": "Extra Small",
 					"slug": "small",
-					"size": "20px",
-					"fluid": {
-						"min": "16px",
-						"max": "20px"
-					}
+					"size": "20px"
 				},
 				{
 					"name": "Small",
 					"slug": "small-medium",
-					"size": "24px",
-					"fluid": {
-						"min": "20px",
-						"max": "24px"
-					}
+					"size": "24px"
 				},
 				{
 					"name": "Medium Small",
 					"slug": "medium-small",
-					"size": "30px",
-					"fluid": {
-						"min": "24px",
-						"max": "32px"
-					}
+					"size": "30px"
 				},
 				{
 					"name": "Medium",
 					"slug": "medium",
-					"size": "32px",
-					"fluid": {
-						"min": "30px",
-						"max": "36px"
-					}
+					"size": "32px"
 				},
 				{
 					"name": "Large Medium",
 					"slug": "large-medium",
-					"size": "36px",
-					"fluid": {
-						"min": "32px",
-						"max": "40px"
-					}
+					"size": "36px"
 				},
 				{
 					"name": "Large",
 					"slug": "large",
-					"size": "40px",
-					"fluid": {
-						"min": "36px",
-						"max": "48px"
-					}
+					"size": "40px"
 				},
 				{
 					"name": "Extra Large",
 					"slug": "x-large",
-					"size": "48px",
-					"fluid": {
-						"min": "40px",
-						"max": "60px"
-					}
+					"size": "48px"
 				},
 				{
 					"name": "Huge",
 					"slug": "xx-large",
-					"size": "64px",
-					"fluid": {
-						"min": "48px",
-						"max": "70px"
-					}
+					"size": "64px"
 				},
 				{
 					"name": "Gigantic",
 					"slug": "xxx-large",
-					"size": "70px",
-					"fluid": {
-						"min": "64px",
-						"max": "80px"
-					}
+					"size": "70px"
 				},
 				{
 					"name": "Massive",
 					"slug": "xxxx-large",
-					"size": "80px",
-					"fluid": {
-						"min": "70px",
-						"max": "100px"
-					}
+					"size": "80px"
 				}
 			]
-        }
-    },
-    "styles": {
+		}
+	},
+	"styles": {
 		"color": {
 			"background": "var(--wp--preset--color--base)",
 			"text": "var(--wp--preset--color--primary)"
@@ -207,6 +159,36 @@
 				},
 				"typography": {
 					"textDecoration": "none"
+				}
+			},
+			"h1": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--xxx-large)"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--xx-large)"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--x-large)"
+				}
+			},
+			"h4": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--medium)"
+				}
+			},
+			"h5": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--small-medium)"
+				}
+			},
+			"h6": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--small)"
 				}
 			}
 		},
