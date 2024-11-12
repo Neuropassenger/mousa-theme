@@ -157,7 +157,7 @@
 							"text": "var(--wp--preset--color--tertiary)"
 						},
 						"typography": {
-							"fontSize": "var(--wp--preset--font-size--small)"
+							"fontSize": "var(--wp--preset--font-size--x-small)"
 						}
 					}
 				}
@@ -169,7 +169,7 @@
 							"text": "var(--wp--preset--color--tertiary)"
 						},
 						"typography": {
-							"fontSize": "var(--wp--preset--font-size--small)"
+							"fontSize": "var(--wp--preset--font-size--x-small)"
 						}
 					}
 				}
