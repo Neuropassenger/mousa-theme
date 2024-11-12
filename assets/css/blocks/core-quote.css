@@ -5,3 +5,7 @@
 .wp-block-quote p::after {
     content: "”";
 }
+
+.wp-block-quote.is-style-quote-1 p {
+    margin-bottom: 20px;
+}
