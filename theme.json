@@ -204,6 +204,11 @@
 						}
 					}
 				}
+			},
+			"core/separator": {
+				"color": {
+					"background": "var(--wp--preset--color--senary)"
+				}
 			}
 		},
 		"elements": {
