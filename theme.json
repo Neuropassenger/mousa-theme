@@ -1,6 +1,6 @@
 { 
 	"version": 3,
-	"$schema": "https://schemas.wp.org/wp/6.0/theme.json",
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
     "settings": {
         "appearanceTools": true,
         "layout": {
@@ -76,6 +76,117 @@
 					"name": "Cormorant Garamond",
 					"slug": "cormorant-garamond"
 				}
+			],
+			"defaultFontSizes": false,
+			"fontSizes": [
+				{
+					"name": "Extra Tiny",
+					"slug": "xx-small",
+					"size": "14px",
+					"fluid": {
+						"min": "12px",
+						"max": "14px"
+					}
+				},
+				{
+					"name": "Tiny",
+					"slug": "x-small",
+					"size": "16px",
+					"fluid": {
+						"min": "14px",
+						"max": "16px"
+					}
+				},
+				{
+					"name": "Extra Small",
+					"slug": "small",
+					"size": "20px",
+					"fluid": {
+						"min": "16px",
+						"max": "20px"
+					}
+				},
+				{
+					"name": "Small",
+					"slug": "small-medium",
+					"size": "24px",
+					"fluid": {
+						"min": "20px",
+						"max": "24px"
+					}
+				},
+				{
+					"name": "Medium Small",
+					"slug": "medium-small",
+					"size": "30px",
+					"fluid": {
+						"min": "24px",
+						"max": "32px"
+					}
+				},
+				{
+					"name": "Medium",
+					"slug": "medium",
+					"size": "32px",
+					"fluid": {
+						"min": "30px",
+						"max": "36px"
+					}
+				},
+				{
+					"name": "Large Medium",
+					"slug": "large-medium",
+					"size": "36px",
+					"fluid": {
+						"min": "32px",
+						"max": "40px"
+					}
+				},
+				{
+					"name": "Large",
+					"slug": "large",
+					"size": "40px",
+					"fluid": {
+						"min": "36px",
+						"max": "48px"
+					}
+				},
+				{
+					"name": "Extra Large",
+					"slug": "x-large",
+					"size": "48px",
+					"fluid": {
+						"min": "40px",
+						"max": "60px"
+					}
+				},
+				{
+					"name": "Huge",
+					"slug": "xx-large",
+					"size": "64px",
+					"fluid": {
+						"min": "48px",
+						"max": "70px"
+					}
+				},
+				{
+					"name": "Gigantic",
+					"slug": "xxx-large",
+					"size": "70px",
+					"fluid": {
+						"min": "64px",
+						"max": "80px"
+					}
+				},
+				{
+					"name": "Massive",
+					"slug": "xxxx-large",
+					"size": "80px",
+					"fluid": {
+						"min": "70px",
+						"max": "100px"
+					}
+				}
 			]
         }
     },
@@ -109,7 +220,7 @@
 		},
 		"typography": {
 			"fontFamily": "var(--wp--preset--font-family--cormorant-garamond)",
-			"fontSize": "var(--wp--preset--font-size--medium)"
+			"fontSize": "var(--wp--preset--font-size--small-medium)"
 		}
 	}
 }
