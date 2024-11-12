@@ -18,4 +18,10 @@ function mousa_enqueue_block_styles() {
 		'src'    => get_theme_file_uri( "assets/css/blocks/core-list.css" ),
 		'path'   => get_theme_file_path( "assets/css/blocks/core-list.css" )
 	) );
+
+    wp_enqueue_block_style( 'core/separator', array(
+		'handle' => 'mousa-block-separator',
+		'src'    => get_theme_file_uri( "assets/css/blocks/core-separator.css" ),
+		'path'   => get_theme_file_path( "assets/css/blocks/core-separator.css" )
+	) );
 }
