@@ -3,6 +3,15 @@
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"settings": {
 		"appearanceTools": true,
+		"dimensions": {
+			"minHeight": true
+		},
+		"spacing": {
+			"blockGap": true,
+			"margin": true,
+			"padding": true,
+			"customSpacingSize": false
+		},
 		"border": {
 			"color": true,
 			"radius": true,
