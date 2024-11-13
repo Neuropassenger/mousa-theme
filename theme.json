@@ -19,8 +19,8 @@
 			"width": true
 		},
 		"layout": {
-			"contentSize": "1140px",
-			"wideSize": "2200px"
+			"contentSize": "900px",
+			"wideSize": "1300px"
 		},
 		"color": {
 			"custom": false,
@@ -235,6 +235,13 @@
 				"color": {
 					"background": "var(--wp--preset--color--primary)",
 					"text": "var(--wp--preset--color--base)"
+				}
+			},
+			"core/list-item": {
+				"spacing": {
+					"margin": {
+						"bottom": "10px"
+					}
 				}
 			}
 		},
