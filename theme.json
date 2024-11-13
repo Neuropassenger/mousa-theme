@@ -148,6 +148,18 @@
 					"size": "80px"
 				}
 			]
+		},
+		"blocks": {
+			"core/image": {
+				"lightbox": {
+					"enabled": true
+				}
+			},
+			"core/gallery": {
+				"lightbox": {
+					"enabled": true
+				}
+			}
 		}
 	},
 	"styles": {
