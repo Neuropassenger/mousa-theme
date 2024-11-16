@@ -10,7 +10,7 @@
 			"blockGap": true,
 			"margin": true,
 			"padding": true,
-			"customSpacingSize": false
+			"customSpacingSize": true
 		},
 		"border": {
 			"color": true,
@@ -20,7 +20,7 @@
 		},
 		"layout": {
 			"contentSize": "900px",
-			"wideSize": "1300px"
+			"wideSize": "1140px"
 		},
 		"color": {
 			"custom": false,
