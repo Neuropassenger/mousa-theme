@@ -29,4 +29,10 @@ function mousa_enqueue_block_styles() {
 add_action( 'admin_init', 'mousa_add_editor_styles' );
 function mousa_add_editor_styles() {
     add_editor_style( get_theme_file_uri( "assets/css/editor.css?v=" . wp_get_theme()->get( 'Version' ) ) );
+    add_editor_style( get_stylesheet_uri() . '?v=' . time() );
+}
+
+add_action( 'wp_enqueue_scripts', 'mousa_enqueue_global_style' );
+function mousa_enqueue_global_style() {
+	wp_enqueue_style( 'mousa-global', get_stylesheet_uri() . '?v=' . time() );
 }
