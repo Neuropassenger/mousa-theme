@@ -2,7 +2,20 @@
 Theme Name: Mousa
 Author: Oleg Sokolov
 Description: unique theme for mkinspires.ru
-Version: 0.0.1
+Version: 0.0.2
 Text Domain: mousa
 */
 
+.quote_with_image_section--image_col {
+    align-self: stretch;
+    background-image: url("http://dev.mkinspires.ru/wp-content/uploads/2024/11/2035_mainfoto_02.jpg");
+    background-position-x: center;
+    /* background-position-y: -120px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.quote_with_image_section--content_col {
+    display: flex;
+    align-items: center;
+}
