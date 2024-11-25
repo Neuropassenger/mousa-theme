@@ -224,6 +224,9 @@
 							"fontStyle": "normal"
 						}
 					}
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--medium-small)"
 				}
 			},
 			"core/separator": {
