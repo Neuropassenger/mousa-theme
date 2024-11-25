@@ -226,7 +226,7 @@
 					}
 				},
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--medium-small)"
+					"fontSize": "24px"
 				}
 			},
 			"core/separator": {
