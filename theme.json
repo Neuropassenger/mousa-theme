@@ -92,6 +92,19 @@
 					"fontFamily": "Cormorant Garamond, serif",
 					"name": "Cormorant Garamond",
 					"slug": "cormorant-garamond"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Montserrat",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": "file:./assets/fonts/montserrat/400.ttf"
+						}
+					],
+					"fontFamily": "Montserrat, serif",
+					"name": "Montserrat",
+					"slug": "monterrat"
 				}
 			],
 			"defaultFontSizes": false,
@@ -275,31 +288,36 @@
 			},
 			"h2": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--xx-large)"
+					"fontSize": "30px"
+				},
+				"spacing": {
+					"margin": {
+						"top": "48px"
+					}
 				},
 				"css": " a {color: var(--wp--preset--color--primary);}"
 			},
 			"h3": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--x-large)"
+					"fontSize": "28px"
 				},
 				"css": " a {color: var(--wp--preset--color--primary);}"
 			},
 			"h4": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--medium)"
+					"fontSize": "26px"
 				},
 				"css": " a {color: var(--wp--preset--color--primary);}"
 			},
 			"h5": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small-medium)"
+					"fontSize": "24px"
 				},
 				"css": " a {color: var(--wp--preset--color--primary);}"
 			},
 			"h6": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)"
+					"fontSize": "22px"
 				},
 				"css": " a {color: var(--wp--preset--color--primary);}"
 			}
