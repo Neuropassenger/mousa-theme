@@ -8,7 +8,8 @@ Text Domain: mousa
 
 .quote_with_image_section--image_col {
     align-self: stretch;
-    background-image: url("http://dev.mkinspires.ru/wp-content/uploads/2024/11/2035_mainfoto_02.jpg");
+    /* background-image: url("http://dev.mkinspires.ru/wp-content/uploads/2024/11/2035_mainfoto_02.jpg"); */
+    background-image: url("https://dev.mkinspires.ru/wp-content/uploads/2024/11/2035_mainfoto_02-e1731783310408.jpg");
     background-position-x: center;
     /* background-position-y: -120px; */
     background-size: cover;
@@ -18,4 +19,12 @@ Text Domain: mousa
 .quote_with_image_section--content_col {
     display: flex;
     align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.wp-site-blocks > header {
+    margin-block-start: 0;
 }
