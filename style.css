@@ -2,7 +2,7 @@
 Theme Name: Mousa
 Author: Oleg Sokolov
 Description: unique theme for mkinspires.ru
-Version: 0.0.3
+Version: 0.0.4
 Text Domain: mousa
 */
 
@@ -31,6 +31,21 @@ Text Domain: mousa
 
 
 
+/* Headings */
+
+:root :where(.is-layout-constrained) > h1, 
+:root :where(.is-layout-constrained) > h2, 
+:root :where(.is-layout-constrained) > h3, 
+:root :where(.is-layout-constrained) > h4, 
+:root :where(.is-layout-constrained) > h5, 
+:root :where(.is-layout-constrained) > h6 {
+    margin-block-start: 60px;
+}
+
+
+
+/* Home Page */
+
 .section__container {
     padding-left: 24px;
     padding-right: 24px;
@@ -51,6 +66,20 @@ Text Domain: mousa
 .section-inner-paddings {
     padding-top: 120px;
     padding-bottom: 120px;
+}
+
+
+
+/* Blog Post */
+
+body.single-post .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+    max-width: 1000px;
+}
+
+
+/* Header */
+.header-main__navigation button.wp-block-navigation__responsive-container-close {
+    margin-right: 50px;
 }
 
 

@@ -2,3 +2,34 @@
 ul.wp-block-list li > div {
     display: inline-block;
 }
+
+
+
+#wpbody .section__container {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+#wpbody .section-welcome {
+    background-image: url('assets/images/welcome-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 50vw;
+    background-position-x: 50vw;
+    background-position-y: center;
+}
+
+#wpbody .section-welcome__content {
+    max-width: 550px;
+}
+
+#wpbody .section-inner-paddings {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+/* Blog Post */
+
+body.post-type-post .block-editor-block-list__layout.is-root-container > :where(:not(.alignleft):not(.alignright):not(.alignfull)),
+body.post-type-post .editor-visual-editor__post-title-wrapper > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+    max-width: 1000px;
+}
