@@ -2,7 +2,7 @@
 Theme Name: Mousa
 Author: Oleg Sokolov
 Description: unique theme for mkinspires.ru
-Version: 0.0.5
+Version: 0.0.6
 Text Domain: mousa
 */
 
@@ -95,8 +95,11 @@ body.single-post .is-layout-constrained > :where(:not(.alignleft):not(.alignrigh
 
 p.has-drop-cap:first-letter {
     font-family: 'PT Serif', serif !important;
-  }  
+}  
 
+strong {
+    font-weight: 600;
+}
 
 
 /* MEDIA */
