@@ -313,7 +313,7 @@
 					}
 				},
 				"typography": {
-					"fontSize": "24px"
+					"fontSize": "18px"
 				}
 			},
 			"core/separator": {
