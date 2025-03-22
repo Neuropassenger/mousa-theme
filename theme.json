@@ -112,7 +112,7 @@
 							"fontFamily": "PT Sans",
 							"fontStyle": "normal",
 							"fontWeight": "400",
-							"src": "file:./assets/fonts/pt-sans/400.woff2"
+							"src": "file:./assets/fonts/pt-sans/400.ttf"
 						},
 						{
 							"fontFamily": "PT Sans",
