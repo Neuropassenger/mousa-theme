@@ -1,3 +1,7 @@
+div > ul.wp-block-list {
+    padding-left: 0;
+}
+
 ul.wp-block-list {
     list-style: none;
 }
