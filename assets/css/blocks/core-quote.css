@@ -10,6 +10,7 @@
 .wp-block-quote p::after {
     font-size: 25px;
     color: var(--wp--preset--color--contrast);
+    line-height: 18px;
 }
 
 .wp-block-quote.is-style-quote-1 p {
