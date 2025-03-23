@@ -100,8 +100,14 @@ body {
 }
 
 strong {
-    font-weight: 600;
+    font-weight: 700;
 }
+
+p.has-drop-cap:not(:focus):first-letter {
+    font-size: var(--wp--preset--font-size--titanic);
+    font-weight: 700;
+    color: #bc3f3f;
+}  
 
 
 /* MEDIA */
@@ -113,12 +119,25 @@ strong {
     .section-welcome__content {
         max-width: unset;
     }
+
+    h1 {
+        font-size: var(--wp--preset--font-size--enormous);
+    }
+
+    .post-featured-image {
+        margin-top: 0;
+        margin-bottom: 60px;
+    }
 }
 
 @media (max-width: 767px) {
 	.section-inner-paddings {
         padding-top: 90px;
         padding-bottom: 90px;
+    }
+
+    h1 {
+        font-size: var(--wp--preset--font-size--massive);
     }
 }
 

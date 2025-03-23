@@ -181,7 +181,7 @@
 							"src": "file:./assets/fonts/pt-serif/700-italic.woff2"
 						}
 					],
-					"fontFamily": "PT Serif, sans-serif",
+					"fontFamily": "PT Serif, serif",
 					"name": "PT Serif",
 					"slug": "pt-serif"
 				},
@@ -212,7 +212,7 @@
 							"src": "file:./assets/fonts/spectral/700-italic.woff2"
 						}
 					],
-					"fontFamily": "Spectral, sans-serif",
+					"fontFamily": "Spectral, serif",
 					"name": "Spectral",
 					"slug": "spectral"
 				}
