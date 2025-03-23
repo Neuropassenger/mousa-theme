@@ -2,7 +2,7 @@
 Theme Name: Mousa
 Author: Oleg Sokolov
 Description: unique theme for mkinspires.ru
-Version: 0.0.9
+Version: 0.0.10
 Text Domain: mousa
 */
 
@@ -82,6 +82,10 @@ body.single-post .is-layout-constrained > :where(:not(.alignleft):not(.alignrigh
     margin-bottom: 140px;
 }
 
+.post-content {
+    margin-block-end: 140px !important;
+}
+
 
 
 
@@ -104,10 +108,20 @@ strong {
 }
 
 p.has-drop-cap:not(:focus):first-letter {
-    font-size: var(--wp--preset--font-size--titanic);
+    font-size: 96px;
+    font-family: var(--wp--preset--font-family--spectral);
     font-weight: 700;
-    color: #bc3f3f;
-}  
+    /* color: #bc3f3f; */
+    color: #a63939;
+}
+
+/* Links */
+
+.post-content :where(a:where(:not(.wp-element-button)):hover) {
+    color: var(--wp--preset--color--primary);
+    border-bottom: 1.5px solid var(--wp--preset--color--contrast);
+}
+
 
 
 /* MEDIA */

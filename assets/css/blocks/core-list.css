@@ -2,6 +2,10 @@ div > ul.wp-block-list {
     padding-left: 0;
 }
 
+div > ol.wp-block-list {
+    padding-left: 15px;
+}
+
 ul.wp-block-list {
     list-style: none;
 }
