@@ -37,7 +37,7 @@
 					"slug": "contrast"
 				},
 				{
-					"color": "#1e1d18",
+					"color": "#2f2f2f",
 					"name": "Primary",
 					"slug": "primary"
 				},
@@ -65,6 +65,11 @@
 					"color": "#ebe9cf",
 					"name": "Senary",
 					"slug": "senary"
+				},
+				{
+					"color": "#1e1d18",
+					"name": "Septenary",
+					"slug": "septenary"
 				}
 			]
 		},
@@ -179,68 +184,104 @@
 					"fontFamily": "PT Serif, sans-serif",
 					"name": "PT Serif",
 					"slug": "pt-serif"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Spectral",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": "file:./assets/fonts/spectral/400.woff2"
+						},
+						{
+							"fontFamily": "Spectral",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": "file:./assets/fonts/spectral/400-italic.woff2"
+						},
+						{
+							"fontFamily": "Spectral",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": "file:./assets/fonts/spectral/700.woff2"
+						},
+						{
+							"fontFamily": "Spectral",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": "file:./assets/fonts/spectral/700-italic.woff2"
+						}
+					],
+					"fontFamily": "Spectral, sans-serif",
+					"name": "Spectral",
+					"slug": "spectral"
 				}
 			],
 			"defaultFontSizes": false,
 			"fontSizes": [
 				{
-					"name": "Extra Tiny",
-					"slug": "xx-small",
+					"name": "Petite",
+					"slug": "petite",
 					"size": "14px"
 				},
 				{
 					"name": "Tiny",
-					"slug": "x-small",
+					"slug": "tiny",
 					"size": "16px"
 				},
 				{
-					"name": "Extra Small",
-					"slug": "small",
-					"size": "20px"
-				},
-				{
 					"name": "Small",
-					"slug": "small-medium",
-					"size": "22px"
+					"slug": "small",
+					"size": "18px"
 				},
 				{
-					"name": "Medium Small",
-					"slug": "medium-small",
-					"size": "30px"
+					"name": "Regular",
+					"slug": "regular",
+					"size": "20px"
 				},
 				{
 					"name": "Medium",
 					"slug": "medium",
-					"size": "32px"
-				},
-				{
-					"name": "Large Medium",
-					"slug": "large-medium",
-					"size": "36px"
+					"size": "22px"
 				},
 				{
 					"name": "Large",
 					"slug": "large",
-					"size": "40px"
+					"size": "30px"
 				},
 				{
 					"name": "Extra Large",
-					"slug": "x-large",
-					"size": "48px"
+					"slug": "extra-large",
+					"size": "32px"
 				},
 				{
 					"name": "Huge",
-					"slug": "xx-large",
-					"size": "64px"
-				},
-				{
-					"name": "Gigantic",
-					"slug": "xxx-large",
-					"size": "70px"
+					"slug": "huge",
+					"size": "36px"
 				},
 				{
 					"name": "Massive",
-					"slug": "xxxx-large",
+					"slug": "massive",
+					"size": "40px"
+				},
+				{
+					"name": "Gigantic",
+					"slug": "gigantic",
+					"size": "48px"
+				},
+				{
+					"name": "Enormous",
+					"slug": "enormous",
+					"size": "64px"
+				},
+				{
+					"name": "Colossal",
+					"slug": "colossal",
+					"size": "70px"
+				},
+				{
+					"name": "Titanic",
+					"slug": "titanic",
 					"size": "80px"
 				}
 			]
@@ -296,24 +337,30 @@
 						"width": "2px"
 					}
 				},
+				"color": {
+					"text": "var(--wp--preset--color--septenary)"
+				},
 				"spacing": {
 					"margin": {
 						"left": "0"
 					},
 					"padding": {
-						"left": "40px"
+						"left": "20px"
 					}
 				},
 				"elements": {
 					"cite": {
 						"typography": {
 							"fontStyle": "normal",
-							"fontSize": "16px"
+							"fontSize": "var(--wp--preset--font-size--tiny)"
+						},
+						"color": {
+							"text": "var(--wp--preset--color--tertiary)"
 						}
 					}
 				},
 				"typography": {
-					"fontSize": "18px"
+					"fontSize": "var(--wp--preset--font-size--small)"
 				}
 			},
 			"core/separator": {
@@ -339,6 +386,9 @@
 			"heading": {
 				"color": {
 					"text": "var(--wp--preset--color--primary)"
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--spectral)"
 				}
 			},
 			"link": {
@@ -356,7 +406,7 @@
 			},
 			"h1": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--xxx-large)"
+					"fontSize": "var(--wp--preset--font-size--colossal)"
 				},
 				"css": " a {color: var(--wp--preset--color--primary);}"
 			},
@@ -405,8 +455,8 @@
 			}
 		},
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--cormorant-garamond)",
-			"fontSize": "var(--wp--preset--font-size--small-medium)"
+			"fontFamily": "var(--wp--preset--font-family--pt-serif)",
+			"fontSize": "var(--wp--preset--font-size--small)"
 		}
 	}
 }
