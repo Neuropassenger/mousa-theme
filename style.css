@@ -77,19 +77,30 @@ body.single-post .is-layout-constrained > :where(:not(.alignleft):not(.alignrigh
     max-width: 1000px;
 }
 
-.post-featured-image {
+.single-post-hero-section {
     margin-top: 0;
     margin-bottom: 140px;
 }
 
-.post-content {
+.single-post-content {
     margin-block-end: 140px !important;
+}
+
+.single-post-hero-section__heading {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 
 
 
 /* Header */
+.header-main {
+    position: absolute;
+    z-index: 10;
+    /* background: rgba(0, 0, 0, .2); */
+    width: 100%;
+}
+
 .header-main__navigation button.wp-block-navigation__responsive-container-close {
     margin-right: 50px;
 }
@@ -117,7 +128,7 @@ p.has-drop-cap:not(:focus):first-letter {
 
 /* Links */
 
-.post-content :where(a:where(:not(.wp-element-button)):hover) {
+.single-post-content :where(a:where(:not(.wp-element-button)):hover) {
     color: var(--wp--preset--color--primary);
     border-bottom: 1.5px solid var(--wp--preset--color--contrast);
 }
