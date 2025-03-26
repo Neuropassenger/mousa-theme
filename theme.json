@@ -407,13 +407,13 @@
 			},
 			"h1": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--colossal)"
+					"fontSize": "var(--wp--preset--font-size--gigantic)"
 				},
 				"css": " a {color: var(--wp--preset--color--primary);}"
 			},
 			"h2": {
 				"typography": {
-					"fontSize": "30px"
+					"fontSize": "var(--wp--preset--font-size--massive)"
 				},
 				"spacing": {
 					"margin": {
@@ -424,25 +424,25 @@
 			},
 			"h3": {
 				"typography": {
-					"fontSize": "28px"
+					"fontSize": "var(--wp--preset--font-size--huge)"
 				},
 				"css": " a {color: var(--wp--preset--color--primary);}"
 			},
 			"h4": {
 				"typography": {
-					"fontSize": "26px"
+					"fontSize": "var(--wp--preset--font-size--extra-large)"
 				},
 				"css": " a {color: var(--wp--preset--color--primary);}"
 			},
 			"h5": {
 				"typography": {
-					"fontSize": "24px"
+					"fontSize": "var(--wp--preset--font-size--large)"
 				},
 				"css": " a {color: var(--wp--preset--color--primary);}"
 			},
 			"h6": {
 				"typography": {
-					"fontSize": "22px"
+					"fontSize": "var(--wp--preset--font-size--medium)"
 				},
 				"css": " a {color: var(--wp--preset--color--primary);}"
 			}
